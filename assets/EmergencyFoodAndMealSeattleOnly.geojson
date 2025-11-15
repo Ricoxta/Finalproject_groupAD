@@ -1,0 +1,1553 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3124319,47.6592588 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"ROOTS",
+    "Location":"Friday Feast",
+    "Operational Notes":"Friday Feast is an all-ages meal provided by ROOTS every Friday. Dinner is served from 5:30 to 7:00PM every Friday in the garage of Chapel on the Ave, located in the alleyway behind the church.",
+    "Who They Serve":"General Public",
+    "Address":"4130 University Wy NE, Seattle, WA 98105",
+    "Phone Number":"(206)-632-1635",
+    "Website":"http://www.rootsinfo.org/",
+    "Days/Hours":"Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3124319,47.6592588 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Roots Young Adult Shelter",
+    "Location":"Roots Young Adult Shelter",
+    "Operational Notes":"To Go Meals, 5:30pm-7pm\nGarage of Chapel on the Ave, located in the aley way behind church",
+    "Who They Serve":"General Public",
+    "Address":"4130 University Wy NE, Seattle, WA 98105",
+    "Phone Number":"(206)-522-4366",
+    "Website":"http://www.rootsinfo.org/friday-feast-volunteer",
+    "Days/Hours":"Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3411453,47.6873209 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Bethany Community Church",
+    "Location":"Bethany Food Bank at Green Lake",
+    "Operational Notes":"Food Bank continues on a weekly basis every Monday from 6-7pm, and  Community Meal is served during the second and last Mondays of each month in the CLC building.",
+    "Who They Serve":"General Public",
+    "Address":"8023 Green Lake Dr N, Seattle, WA 98103",
+    "Phone Number":"(206)-524-9000",
+    "Website":"https://www.churchbcc.org/missions/localmissions",
+    "Days/Hours":"Monday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3416573,47.7052676 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Epic Church",
+    "Location":"The Giving Room",
+    "Operational Notes":"Food distribution is from 9:30am-12:30pm on Mondays. Guests must arrive by 12:15pm to shop in our grocery store-style food bank.",
+    "Who They Serve":"General Public",
+    "Address":"10510 Stone Ave N, Seattle, WA 98133",
+    "Phone Number":"(206)-552-9586",
+    "Website":"http://www.epiclifechurch.org/incarnational-ministry",
+    "Days/Hours":"Monday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3202219,47.60151 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations & SPS",
+    "Location":"Yesler Community Center",
+    "Operational Notes":"East African Senior Meal Program: Please call ahead for availability. Suggested donation of $3-$5 for those 60 and older.",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"917 E Yesler Way, Seattle, WA 98122",
+    "Phone Number":"(206)-227-8659",
+    "Website":"http://www.soundgenerations.org/our-programs/food-security/community-dining/",
+    "Days/Hours":"Monday, Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3127166,47.5803727 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Musang Community Kitchen",
+    "Location":"Musang Community Kitchen",
+    "Operational Notes":"Please contact us to place order and confirm pick-up time so we can be prepared to meet you outside.",
+    "Who They Serve":"General Public",
+    "Address":"2524 Beacon Ave S, Seattle, WA 98144",
+    "Phone Number":"(206)-708-6871",
+    "Website":"http://www.musangseattle.com/community-kitchen",
+    "Days/Hours":"Monday, Tuesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2871358,47.5500465 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Asian Counseling and Referral Service (ACRS)",
+    "Location":"Filipino Community of Seattle",
+    "Operational Notes":"For more information, contact: Miquel Saldin (206) 695-7510",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"5740 Martin Luther King Jr Way S, Seattle, WA 98118",
+    "Phone Number":"(206)-695-7510",
+    "Website":"http://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/",
+    "Days/Hours":"Monday, Tuesday, Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2871358,47.5500465 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Filipino Community of Seattle",
+    "Location":"Filipino Community of Seattle Meals and Food Bank",
+    "Operational Notes":"",
+    "Who They Serve":"Food Banks: General Public\nMeals: Older Adults 60+ and Eligible Participants",
+    "Address":"5740 Martin Luther King Jr Way S, Seattle, WA 98144",
+    "Phone Number":"(206)-722-9372",
+    "Website":"https://www.filcommsea.org/senior-services",
+    "Days/Hours":"Monday, Tuesday, Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3070989,47.5888499 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Filipino Community of Seattle",
+    "Location":"Eritrean Association in Greater Seattle",
+    "Operational Notes":"Please call ahead for availability",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"1528 Valentine Pl S, Seattle, WA 98144",
+    "Phone Number":"(206)-722-9372",
+    "Website":"http://www.filcommsea.org/index.php/programs/",
+    "Days/Hours":"Monday, Tuesday, Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3178395,47.6655387 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"University District Service League",
+    "Location":"University District Food Bank",
+    "Operational Notes":"Primarily support community in Northeast Seattle. All are welcome. \nCustomers may shop once per week.",
+    "Who They Serve":"General Public",
+    "Address":"5017 Roosevelt Way NE, Seattle, WA 98105",
+    "Phone Number":"(206)-523-7060",
+    "Website":"https://www.udistrictfoodbank.org/services/",
+    "Days/Hours":"Monday, Tuesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3509931,47.6904002 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Phinney Neighborhood Association",
+    "Location":"Hot Meals Program Greenwood Senior Center",
+    "Operational Notes":"No eligibility requirements. Three meals per week at two locations in the Phinney Ridge and Greenwood neighborhoods of Seattle.",
+    "Who They Serve":"General Public",
+    "Address":"5515 Phinney Ave N, Seattle, WA 98103",
+    "Phone Number":"(206)-783-2244",
+    "Website":"http://www.phinneycenter.org/hotmeal/",
+    "Days/Hours":"Monday, Tuesday, Wednesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.354731,47.6688384 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Phinney Neighborhood Association",
+    "Location":"St. John United Lutheran Church",
+    "Operational Notes":"No eligibility requirements,\nHot meals\nMonday & Tuesday (Dinner) 4pm-6pm, and Wednesday (Lunch) 11am-1pm",
+    "Who They Serve":"General Public",
+    "Address":"5515 Phinney Ave N, Seattle, WA 98103",
+    "Phone Number":"(206)-783-2244",
+    "Website":"http://www.phinneycenter.org/hotmeal/",
+    "Days/Hours":"Monday, Tuesday, Wednesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3442384,47.6938816 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Aurora Commons",
+    "Location":"Aurora Commons",
+    "Operational Notes":"Temporarily closed drop-in services and instead are offering meals, hygiene, clothing, and supplies through our front door and are allowing people to enter through the back door one at a time to use the restroom.",
+    "Who They Serve":"General Public",
+    "Address":"8914 Aurora Ave N, Seattle, WA 98103",
+    "Phone Number":"(206)-299-2278",
+    "Website":"http://www.auroracommons.org/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3740701,47.66404713 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Ballard Food Bank",
+    "Location":"Ballard Food Bank",
+    "Operational Notes":"The line forms outside and numbers are given out at 10:00 AM Monday through Thursday. Once numbers are given out, clients can wait inside, or go to the Resource Hub or Café.",
+    "Who They Serve":"General Public",
+    "Address":"1400 Leary Wy NW, Seattle, WA 98107",
+    "Phone Number":"(206)-789-7800",
+    "Website":"http://www.ballardfoodbank.org/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2973881,47.570897 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Asian Counseling and Referral Service (ACRS)",
+    "Location":"Club Bamboo and Hmong Senior Club",
+    "Operational Notes":"For more information, contact: Miquel Saldin (206) 695-7510",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"3639 Martin Luther King Jr Way S, Seattle, WA 98144",
+    "Phone Number":"(206)-695-7510",
+    "Website":"http://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.334605,47.5999268 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Bread of Life Mission",
+    "Location":"Bread of Life Mission",
+    "Operational Notes":"Hot  meals, coffee, water & pastries",
+    "Who They Serve":"General Public",
+    "Address":"97 South Main Street, Seattle, WA 98104",
+    "Phone Number":"(206)-682-3579",
+    "Website":"https://www.breadoflifemission.org/emergency-services",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3203773,47.6233603 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Community Lunch on Capitol Hill",
+    "Location":"All Pilgrims Christian Church",
+    "Operational Notes":"Coffee and breakfast served 9:30am-10:30am. Lunch served 11:30am-1:00pm. No sign-in required.",
+    "Who They Serve":"General Public",
+    "Address":"500 Broadway E, Seattle, WA 98102",
+    "Phone Number":"(206)-972-2524",
+    "Website":"http://www.communitylunch.org/about-1",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.29595,47.733508 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Hunger Intervention Program",
+    "Location":"Jackson Park Community Building",
+    "Operational Notes":"Program runs from 6/24/24 – 8/23/24\nSite provides free take home meals for kids and teens 18 and younger. Lunch is provided",
+    "Who They Serve":"Youth and Young Adults",
+    "Address":"14374 30th Ave NE, Seattle, WA 98125",
+    "Phone Number":"(206)-538-6567",
+    "Website":"http://www.hungerintervention.org/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.291805,47.720291 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Hunger Intervention Program",
+    "Location":"Lake City Court",
+    "Operational Notes":"Summer program ends 6/30/25 – 8/29/25.\nSite provides free take home meals for kids and teens 18 and younger.",
+    "Who They Serve":"Youth and Young Adults",
+    "Address":"12526 33rd Ave NE, Seattle, WA 98125",
+    "Phone Number":"(206)-538-6567",
+    "Website":"http://www.hungerintervention.org/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3537259,47.6206989 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Sacred Heart Church/SVDP Society",
+    "Location":"Queen Anne Food Bank and Meals",
+    "Operational Notes":"Meals: High protein sandwiches, yogurt, fruit, bread, pastries, and hot soups. Thusdays shop for free.",
+    "Who They Serve":"General Public",
+    "Address":"232 Warren Ave N Suite B, Seattle, WA 98109",
+    "Phone Number":"(206)-216-4102",
+    "Website":"http://www.sacredheartseattle.org/qafb",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3547065,47.5215741 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Salvation Army",
+    "Location":"Salvation Army White Center",
+    "Operational Notes":"To qualify, individuals must be at or below 125% percent of the Federal Poverty Level and live within the following zip codes:\n98106, 98108 (west of the Duwamish, in the South Park neighborhood), 98116, 98126, 98136, 98146, 98148, 98158, 98166, 98168, 98188 and 98198 (north of 216th).\nPlease provide the following verification documents: Proof of income, verification of family size, proof of address and Photo ID.",
+    "Who They Serve":"Food Bank: General Public\nMeals: Older Adults 60+ and Eligible Participants",
+    "Address":"9050 16th Avenue SW, Seattle, WA 98106",
+    "Phone Number":"(206)-767-3150",
+    "Website":"https://tsawhitecenter.org/SeattleWhiteCenter/help",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3144483,47.599789 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Seattle Indian Center",
+    "Location":"Emergency Meals and Food Bank",
+    "Operational Notes":"Food Bank:Tuesday & Thursday 1-3pm , Bring local Seattle ID\nMeals: Breakfast Monday- Friday 8:30am-9:30am, Lunch Monday -Friday 12pm -1:15pm,",
+    "Who They Serve":"General Public",
+    "Address":"1265 S Main St, Seattle, WA 98144",
+    "Phone Number":"(206)-329-8700",
+    "Website":"http://www.seattleindian.org/services/food-security-programs/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3987072,47.6684176 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"Ballard NW Senior Center",
+    "Operational Notes":"Weekdays at 12pm\nDinner served on Wednesday 4:30pm",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"5429 32nd NW, Seattle, WA 98017",
+    "Phone Number":"(206)-297-0403",
+    "Website":"http://www.soundgenerations.org/our-programs/food-security/community-dining/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2932771,47.597467 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"Central Area Senior Center",
+    "Operational Notes":"Please call ahead for availability\nMonday: Pickup Only\nTuesday - Friday: Pick up and Delivery (call ahead)\nLimited delivery available",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"500 30th Ave S, Seattle, WA 98144",
+    "Phone Number":"(206)-726-4926",
+    "Website":"http://www.soundgenerations.org/our-programs/food-security/community-dining/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3509931,47.6904002 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"Greenwood Senior Center",
+    "Operational Notes":"Please call or sign up 24 hours in advance. \nSuggested donation of $3-$5 for those 60 and older. Under 60? Please pay $10",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"525 N 85th Street, Seattle, WA 98103",
+    "Phone Number":"(206)-297-0875",
+    "Website":"https://www.phinneycenter.org/seniors/gsc/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3092827,47.6003875 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"Kawabe Memorial House",
+    "Operational Notes":"Please make a reservation 2 business days in advance by calling (206)-322-4550 or emailing lunch@kawabehouse.org.  Suggested donation of $5 for those 60 and older.",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"221 18th Ave S, Seattle, WA 98144",
+    "Phone Number":"(206)-322-4550",
+    "Website":"https://kawabehouse.org/meiji-kai-menu/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2729875,47.5422737 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"Southeast Seattle Senior Center",
+    "Operational Notes":"Please call ahead for availability and ask for Jamie Clark.\nAt all locations, a suggested donation of $3 to $5 is encouraged for those 60 and older. A $10 contribution is asked for those under 60.",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"4655 South Holly Street, Seattle, WA 98118",
+    "Phone Number":"(206)-727-6248",
+    "Website":"http://www.soundgenerations.org/our-programs/food-security/community-dining/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3864553,47.5626975 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Sound Generations",
+    "Location":"West Seattle Senior Center",
+    "Operational Notes":"Hours 11:45am\nSoup & Sandwich offered at café 5 days/week",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"4217 SW Oregon St, Seattle, WA 98116",
+    "Phone Number":"206-932-4044",
+    "Website":"http://sc-ws.org/services/food-and-dining/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3259157,47.607646 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"St. James Cathedral",
+    "Location":"Cathedral Kitchen",
+    "Operational Notes":"The day begins at 8:30 am each weekday. Two “gleaners” (fifteen of them during the week) drive around Seattle collecting produce, deli meats, and dairy from various grocery stores—PCC, Madison Market, and QFC—for the four-course meals that are prepared and served to 150 guests five days a week, all year round, including all holidays except Christmas Day.",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"804 9th Ave, Seattle, WA 98104",
+    "Phone Number":"(206)-264-2091",
+    "Website":"http://www.stjames-cathedral.org/outreach/kitchen.aspx",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3844742,47.6704008 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"St. Luke's Episcopal Church",
+    "Location":"Edible Hope Kitchen",
+    "Operational Notes":"Offering breakfast in the morning.",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"5710 22nd Ave NW, Seattle, WA 98107",
+    "Phone Number":"(206)-784-3119",
+    "Website":"https://www.ediblehopekitchen.org/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3155223,47.6653128 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"YMCA of Greater Seattle - University Family",
+    "Location":"YMCA of Greater Seattle - University Family",
+    "Operational Notes":"There are 2,500+ summer food program sites at Ys around the country. Contact your nearest Y for details about local offerings.",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"5003 12th Ave NE, Seattle, WA 98105",
+    "Phone Number":"(206)-524-1400",
+    "Website":"https://www.ymca.org/what-we-do/youth-development/food-programs/summer",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3353162,47.60104542 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Operation Sack Lunch, Inc.",
+    "Location":"Compass Housing",
+    "Operational Notes":"**ALL ARE WELCOME AT THE OPEN MEAL SERVICE (oms)**",
+    "Who They Serve":"General Public",
+    "Address":"210 Alaskan Way S, Seattle, WA 98104",
+    "Phone Number":"(206)-347-6629",
+    "Website":"http://www.oslserves.org/",
+    "Days/Hours":"Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3337333,47.5878987 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Puget Sound Labor Agency",
+    "Location":"Puget Sound Labor Agency Food Bank",
+    "Operational Notes":"Ready made bags at the back entrance",
+    "Who They Serve":"General Public",
+    "Address":"1700 S 1st Ave, Seattle, WA 98134",
+    "Phone Number":"(206)-448-9277",
+    "Website":"http://www.pugetsoundlaboragency.org/food-bank.html",
+    "Days/Hours":"Monday, Wednesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2981048,47.7203524 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Hunger Intervention Program",
+    "Location":"Lake City Community Center/Lamb of God Church",
+    "Operational Notes":"Lake City Seniors offer a lunch cooked from scratch by Hunger Intervention Program. This meal is a low-cost, nutritious and delicious lunch for the community, all are welcome. Since the pandemic started to-go lunches have been offered at the Lamb of God Lutheran Church. $4 suggested donation for people 60 and older and $6 for people under 60",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"12531 28th Ave NE, Seattle, WA 98125",
+    "Phone Number":"(206)-538-6567",
+    "Website":"http://www.hungerintervention.org/",
+    "Days/Hours":"Monday, Wednesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3295651,47.5855714 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Northwest Harvest",
+    "Location":"SODO Community Market",
+    "Operational Notes":"No ID, proof of income, or residency information is required to shop with us. Open each Monday, Wednesday and Friday with choice of shopping for a wide variety of food items.",
+    "Who They Serve":"General Public",
+    "Address":"1915 4th Ave S, Seattle, WA 98134",
+    "Phone Number":"(800)-722-6924",
+    "Website":"http://www.northwestharvest.org/sodo-community-market?gclid=CjwKCAjwguzzBRBiEiwAgU0FT2oeYOjgOqT-nfdpq8cCoSR-ynhQyJnFA4Xuzmhtt749Xzpz19jAZRoCaTUQAvD_BwE",
+    "Days/Hours":"Monday, Wednesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2981048,47.7203524 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"Hunger Intervention Program - Lake City Community Ctr",
+    "Operational Notes":"To go lunches will be available in the Lake City Community Center parking lot.\n\nLimited delivery available, and not on Tues. or Thurs.\n\nTuesday and Thursday meals provided by Bounce Back.",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"12531 28th Ave NE, Seattle, WA 98125",
+    "Phone Number":"(206)-707-1865",
+    "Website":"http://www.soundgenerations.org/our-programs/food-security/community-dining/",
+    "Days/Hours":"Monday, Wednesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.320528,47.5296153 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"South Park Senior Citizens",
+    "Operational Notes":"Reservations required. Please call (206) 909-0346 or email aurora@spseniors.org. Please visit the website for virtual activities www.spseniors.org. Suggested donation of $3-$5 for those 60 and older.",
+    "Who They Serve":"Meals: Older Adults 55+ and Eligible Participants",
+    "Address":"8201 10th Ave S, Seattle, WA 98108",
+    "Phone Number":"(206)-909-0346",
+    "Website":"https://www.spseniors.org/",
+    "Days/Hours":"Monday, Wednesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3065791,47.5972377 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"The Food Bank @ St. Mary's",
+    "Location":"The Food Bank @ St. Mary's",
+    "Operational Notes":"Individuals aged 18 or older should bring a photo ID. Customers are asked to stand in line outside, wait patiently until their turn to shop, and bring bags for groceries.",
+    "Who They Serve":"General Public",
+    "Address":"611 20th Ave S, Seattle, WA 98144",
+    "Phone Number":"(206)-324-7215",
+    "Website":"http://www.thefbsm.org/services",
+    "Days/Hours":"Monday, Wednesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.320528,47.5296153 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"South Park Senior Citizens",
+    "Location":"",
+    "Operational Notes":"Reservations required. Please call (206) 909-0346 or email aurora@spseniors.org. Please visit the website for virtual activities www.spseniors.org. Suggested donation of $3-$5 for those 60 and older.",
+    "Who They Serve":"Meals: Older Adults 55+ and Eligible Participants",
+    "Address":"8201 10th Ave S, Seattle, WA 98108",
+    "Phone Number":"(206)-909-0346",
+    "Website":"https://www.spseniors.org/",
+    "Days/Hours":"Monday, Wednesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3240431,47.5284221 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Urban Fresh Food Collective of South Park",
+    "Location":"South Park Community Center",
+    "Operational Notes":"Phone number listed accepts texts in English and Spanish",
+    "Who They Serve":"General Public",
+    "Address":"8319 8th Ave S, Seattle, WA 98108",
+    "Phone Number":"(206)-809-9691",
+    "Website":"http://www.urbanfreshfoodcollective.org/covid19",
+    "Days/Hours":"Monday, Wednesday, Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3452308,47.5054821 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"White Center Food Bank",
+    "Location":"White Center Food Bank",
+    "Operational Notes":"Schedule an appointment online for returning customers New customers, please come in person to register.\nThursdays 60+ only.",
+    "Who They Serve":"General Public",
+    "Address":"10829 8th Ave SW, Seattle, WA 98146",
+    "Phone Number":"(206)-762-2848",
+    "Website":"http://www.whitecenterfoodbank.org/service-hours",
+    "Days/Hours":"Monday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3072811,47.58918453 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Eritrean Association in Greater Seattle",
+    "Location":"Eritrean Association in Greater Seattle",
+    "Operational Notes":"Please call ahead for availability. Meal service days not specificied on website.",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"1954 S Massachusetts St, Seattle WA 98144",
+    "Phone Number":"(206)-548-6387",
+    "Website":"https://www.eritreanassociation.org/programs-blog/blog-post-title-four-thpy4",
+    "Days/Hours":"Not Specified"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2393177,47.4917411 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Holy Temple Evangelistic Center",
+    "Location":"Holy Temple Evangelistic Center",
+    "Operational Notes":"Emergency food",
+    "Who They Serve":"General Public",
+    "Address":"12600 Renton Ave S, Seattle, WA 98178",
+    "Phone Number":"(206)-722-3984",
+    "Website":"http://www.facebook.com/HolyTECSeattle/",
+    "Days/Hours":"Not Specified"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3184037,47.6127314 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Lifelong",
+    "Location":"Chicken Soup Brigade",
+    "Operational Notes":"Lifelong’s Food & Nutrition program, Chicken Soup Brigade, delivers healthy, home-cooked meals and nutritious groceries right to your door. Meals are made on-site, from scratch, using whole food ingredients.",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"4634 E Marginal Way S, Suite C200, Seattle, WA",
+    "Phone Number":"(206)-957-1600",
+    "Website":"http://www.lifelong.org/chicken-soup-brigade",
+    "Days/Hours":"Not Specified"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2803173,47.5400001 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Asian Counseling and Referral Service (ACRS)",
+    "Location":"Duoc Su Senior Nutr. Program",
+    "Operational Notes":"For more information, please contact:\nMiguel Saldin\nmiguels@acrs.org\n(206) 695-7510",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"6924 42nd Ave S , Seattle, WA 98118",
+    "Phone Number":"(206)-695-7510",
+    "Website":"http://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/",
+    "Days/Hours":"Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3263239,47.6142392 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"First Covenant Church",
+    "Location":"First Covenant Church",
+    "Operational Notes":"Preparing hot breakfast sandwiches and bag lunches,  ask guests to line up 6 feet apart",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"400 E Pike St, Seattle, WA 98122",
+    "Phone Number":"(206)-322-7411",
+    "Website":"http://www.firstcovenantseattle.org/outreach",
+    "Days/Hours":"Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3531962,47.6188068 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"First United Methodist Church of Seattle",
+    "Location":"First United Methodist Church of Seattle",
+    "Operational Notes":"Shared Breakfast",
+    "Who They Serve":"General Public",
+    "Address":"180 Denny Way, Seattle, WA 98109",
+    "Phone Number":"(206)-622-7278",
+    "Website":"http://www.firstchurchseattle.org/shared-breakfast/?fbclid=IwAR2EAykPB90--700TuZeuY3aX18yx3tXkg9lbCW8qVghb3RgTCJJnwkB7wQ",
+    "Days/Hours":"Sunday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3190289,47.6664368 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Blessed Sacrament",
+    "Location":"First United Methodist Church of Seattle",
+    "Operational Notes":"Area Served: Zip Codes 98105, 98103, 98115 (All are partial; serves the parish boundary) \nRegular Distribution Hours:\nFriday: 10:30am – 12pm\n\nAdditional Information: \nMeal Program, Sundays 10:30 AM – 2:00 PM",
+    "Who They Serve":"General Public",
+    "Address":"5050 8th Ave NE, Seattle, WA 98105",
+    "Phone Number":"(206)-547-3020",
+    "Website":"http://www.blessed-sacrament.org/outreach",
+    "Days/Hours":"Sunday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3252976,47.60752564 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"St. James Cathedral",
+    "Location":"Sunday Breakfast",
+    "Operational Notes":"To-go only; guests may not arrive before 7am, and may not stay on-site after receiving a meal",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"804 9th Ave, Seattle, WA 98104",
+    "Phone Number":"(206)-382-4235",
+    "Website":"http://www.stjames-cathedral.org/outreach/kitchen.aspx",
+    "Days/Hours":"Sunday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3321098,47.6206572 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Immanuel Community Services",
+    "Location":"Immanuel Community Services Food Bank and Community Lunch",
+    "Operational Notes":"Home delivery is available through website link. Hygiene Center is still open from 8am to 2pm on weekdays. \nFood bank is still open Mondays at 10:00am-1:00pm\nCommunity Lunch the last Sunday of each month 12:00-2:00pm \nIf you are unable to leave your home & need food, please email info@icsseattleorg",
+    "Who They Serve":"General Public",
+    "Address":"1215 Thomas, Seattle, WA 98109",
+    "Phone Number":"(206)-622-1930",
+    "Website":"http://www.icsseattle.org/covid-19-info/",
+    "Days/Hours":"Sunday, Monday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2809353,47.5374953 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Plant Based Food Share",
+    "Location":"Central Seattle",
+    "Operational Notes":"Plant Based Food Box Program -Each week's box is curated with love to provide your family a mixed box full of healthy produce, grains, baked goods, bread. All boxes celebrate a different culture weekly!\n\n Sign up for pick-up on Saturdays and Sundays in Central Seattle. \n\n?\n\nPlease check your email for your detailed confirmation.",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"7148 Martin Luther King Jr Way S, Seattle, WA 98118",
+    "Phone Number":"(971)-245-2907?",
+    "Website":"http://www.plantbasedfoodshare.org",
+    "Days/Hours":"Sunday, Monday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.311609,47.661853 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"YouthCare",
+    "Location":"U-District Youth Center",
+    "Operational Notes":"Only offers day services and is too small to support an overnight shelter UDYC has partnered with ROOTS Young Adult Shelter, University Congregational Church, and Teen Feed in the University District so that young people can have consistent meals and additional activity space during the day and shelter at night",
+    "Who They Serve":"Youth and Young Adults",
+    "Address":"4516 15th Ave NE, Seattle, WA 98105",
+    "Phone Number":"(206)-622-5555",
+    "Website":"http://www.youthcare.org/get-help/",
+    "Days/Hours":"Sunday, Monday, Tuesday, Wednesday, Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3015923,47.5822614 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Catholic Community Services of  Western Washington",
+    "Location":"Phoenix Center",
+    "Operational Notes":"7 days a week",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"2329 Rainier Ave S, Seattle, WA 98144",
+    "Phone Number":"(206)-623-7219",
+    "Website":"http://www.ccsww.org/get-help/shelter-homeless-services/lazarus-center/",
+    "Days/Hours":"Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3252185,47.6756763 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Frelard Tamales",
+    "Location":"Frelard Tamales",
+    "Operational Notes":"Free grab and go meal for people economically impacted by Covid-19.",
+    "Who They Serve":"General Public",
+    "Address":"6412 Latona Avenue NE, Seattle, WA 98115",
+    "Phone Number":"(206)-523-6654",
+    "Website":"http://www.frelardtamales.com/",
+    "Days/Hours":"Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3137564,47.5998571 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Operation Nightwatch",
+    "Location":"Operation Nightwatch Shelter Dispatch Center",
+    "Operational Notes":"Hot meal served 8:00-9:15 pm nightly.",
+    "Who They Serve":"General Public",
+    "Address":"302 14th Ave S, Seattle, WA 98144",
+    "Phone Number":"(206)-329-2099",
+    "Website":"http://www.seattlenightwatch.org/what-we-do/food-and-shelter/",
+    "Days/Hours":"Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3405616,47.6084268 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Pike Market Senior Center",
+    "Location":"Pike Market Senior Center",
+    "Operational Notes":"Food Banks Hours: Tuesday 12pm-3pm, Wednesday 3pm-7pm, Thursday 12pm-3pm  \nMeals: Breakfast daily 8:20am-9am, Lunch Mon-Fri 12pm-1pm, Weekends 11:30am-12:30pm\nClosed 1st Thursday of each month",
+    "Who They Serve":"Food Banks: Contact Agency for Any Eligibility Requirements\nMeals: Older Adults 55+ and Eligible Participants",
+    "Address":"Pike Market Senior Center &Food Bank \n85 Pike Street, Seattle, WA 98101\nFood Bank Pick Up Location \n1531 Western Ave",
+    "Phone Number":"(206)-728-2773",
+    "Website":"http://www.pmsc-fb.org/",
+    "Days/Hours":"Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3111496,47.6617835 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Teen Feed",
+    "Location":"University Congregational Church",
+    "Operational Notes":"Meals to go - youth 13-24",
+    "Who They Serve":"Youth and Young Adults",
+    "Address":"4515 16th Ave NE, Seattle, WA 98105",
+    "Phone Number":"(206)-229-0813",
+    "Website":"http://www.teenfeed.org/programs/",
+    "Days/Hours":"Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3305192,47.6182683 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"YouthCare",
+    "Location":"Orion Center",
+    "Operational Notes":"Warm meals for breakfast, lunch, and dinner",
+    "Who They Serve":"Youth and Young Adults",
+    "Address":"1828 Yale Ave, Seattle, WA 98101",
+    "Phone Number":"(206)-622-5555",
+    "Website":"http://www.youthcare.org/homeless-youth-services/engagement-services/youthcares-orion-center/",
+    "Days/Hours":"Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3328885,47.6000475 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Food Not Bombs - Seattle",
+    "Location":"Occidental Park",
+    "Operational Notes":"Free vegetarian meal",
+    "Who They Serve":"General Public",
+    "Address":"Occidental Ave S and S Main St, Seattle, WA 98104",
+    "Phone Number":"(206)-397-6815",
+    "Website":"http://www.seattlefoodnotbombs.org/?fbclid=IwAR3T68e9asOm5ksmU_CuHK8ppZZir1QFQBRn_HbSvUCNvhDb7sGxeFXhr_g",
+    "Days/Hours":"Sunday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3137458,47.666133 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Northwest SHARE",
+    "Location":"University Heights Center",
+    "Operational Notes":"Free Vegetarian Food Truck",
+    "Who They Serve":"General Public",
+    "Address":"5031 University Way NE, Seattle, WA 98105",
+    "Phone Number":"(206)-527-4278",
+    "Website":"http://www.uheightscenter.org/coronavirus",
+    "Days/Hours":"Sunday, Wednesday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3401409,47.608632 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Atrium Kitchen",
+    "Location":"Atrium Kitchen",
+    "Operational Notes":"First Thursday of every month",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"93 Pike Street, Suite 101, Seattle WA 98101",
+    "Phone Number":"(206)-829-9525",
+    "Website":"http://www.atriumkitchenpikeplace.com/",
+    "Days/Hours":"Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2975849,47.7197784 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Hunger Intervention Program",
+    "Location":"Farmers Market at Lake City Community Center",
+    "Operational Notes":"Summer program ends 8/23\nSite provides free take home meals for kids and teens 18 and younger. Participants receive additional food every Friday to help over the weekend.",
+    "Who They Serve":"Youth and Young Adults",
+    "Address":"12546 28th Ave NE, Seattle, WA 98125",
+    "Phone Number":"(206)-538-6567",
+    "Website":"http://www.hungerintervention.org/",
+    "Days/Hours":"Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2624573,47.5261434 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Tilth  Alliance Market Program",
+    "Location":"South Seattle  - Rainier Beach",
+    "Operational Notes":"Our pay-what-you-can farm stand supports our goal of ensuring that everyone in the community has fair, equal, and dignified access to local, fresh, seasonal, organic, and sustainably-grown food. We offer those in need up to $20 of produce at no-cost per visit. Donations are encouraged for produce, but no one is turned away for inability to pay. We accept cash, credit, EBT, Fresh Bucks and offer SNAP Market Match.",
+    "Who They Serve":"General Public",
+    "Address":"5513 S Cloverdale St, Seattle, WA 98118",
+    "Phone Number":"(206)-633-0451",
+    "Website":"http://tilthalliance.square.site/",
+    "Days/Hours":"Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3524692,47.5344477 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Paradise of Praise",
+    "Location":"Food Bank",
+    "Operational Notes":"Regular distribution hours are Tuesday from 10:00am-12:00pm.",
+    "Who They Serve":"General Public",
+    "Address":"1316 SW Holden Street, Seattle, WA 98106",
+    "Phone Number":"(206)-234-2713",
+    "Website":"https://www.seattlefoodcommittee.org/food_bank/paradise-of-praise/",
+    "Days/Hours":"Tuesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2934033,47.5364556 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"American Polynesian Organization and International Drop-In Center",
+    "Operational Notes":"Seniors 60+; or Spouse of senior, or any disabled adult.  Under 60? Please pay $10. \nHours 11am-1pm",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"7301 Beacon Ave , Seattle, WA 98108",
+    "Phone Number":"(206)-606-0916",
+    "Website":"http://www.soundgenerations.org/our-programs/food-security/community-dining/",
+    "Days/Hours":"Tuesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3221733,47.7054887 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations & SPS",
+    "Location":"Northgate Community Center",
+    "Operational Notes":"Meal served by Hunger Intervention Program. Please call ahead for availability. Suggested donation of $3-$5 for those 60 and older.",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"10510 5th Ave NE, Seattle, WA 98125",
+    "Phone Number":"(206)-538-6567",
+    "Website":"http://www.soundgenerations.org/our-programs/food-security/community-dining/",
+    "Days/Hours":"Tuesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3486525,47.7240367 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Ukrainian Community Center",
+    "Location":"Ukrainian Community Center of WA - Seattle",
+    "Operational Notes":"Lunch served Monday through Friday for seniors. Transportation is available to those who need it.",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"13470 Martin Luther King Jr Way S #5210, Seattle, WA 98178",
+    "Phone Number":"(425)-430-8229",
+    "Website":"http://uccwa.org/",
+    "Days/Hours":"Tuesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3069784,47.6219158 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Asian Counseling and Referral Service (ACRS)",
+    "Location":"Korean Senior Club Miller Community Center",
+    "Operational Notes":"For more information, contact: Miquel Saldin (206) 695-7510",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"330 19th Ave E, Seattle WA, 98122",
+    "Phone Number":"(206)-695-7510",
+    "Website":"http://www.acrs.org/services/aging-services-for-older-adults/senior-lunch-programs/",
+    "Days/Hours":"Tuesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2624573,47.5261434 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"East African Senior Program (RBUFW)",
+    "Operational Notes":"Please call ahead for availability; suggested donation of $3-$5 for those 60 and older. A $10 contribution is asked for those under 60.",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"5513 S Cloverdale St, Seattle, WA 98118",
+    "Phone Number":"(206)-227-8659",
+    "Website":"http://www.soundgenerations.org/our-programs/food-security/community-dining/",
+    "Days/Hours":"Tuesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3263116,47.5350237 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Cultivate South Park",
+    "Location":"",
+    "Operational Notes":"Tuesday extended service hours from 2 to 4 PM by request only to  connect@cultivatesouthpark.org",
+    "Who They Serve":"General Public",
+    "Address":"614 S Riverside Drive, Seattle, WA 98108",
+    "Phone Number":"",
+    "Website":"http://www.cultivatesouthpark.org",
+    "Days/Hours":"Tuesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3444542,47.6597609 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"FamilyWorks",
+    "Location":"Wallingford Food Bank",
+    "Operational Notes":"Food bank located here until renovations are completed in mid-2026.\n\nTue: 12:00 pm - 2:00 pm\nThur: 3:00 pm - 6:00 pm\nFri: 11:00 am - 1:00 pm",
+    "Who They Serve":"General Public",
+    "Address":"4318 Stone Way N, Seattle, WA 98103",
+    "Phone Number":"2066471780",
+    "Website":"http://www.familyworksseattle.org/food-banks/",
+    "Days/Hours":"Tuesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3291318,47.5486194 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Society of St Vincent de Paul Council",
+    "Location":"Georgetown Food Bank",
+    "Operational Notes":"Hours 11am-2pm",
+    "Who They Serve":"General Public",
+    "Address":"5972 4th Ave S, Seattle, WA 98108",
+    "Phone Number":"(206)-686-5260",
+    "Website":"http://www.svdpseattle.org/get-help/food-bank/",
+    "Days/Hours":"Tuesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3557886,47.6984899 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Salvation Army",
+    "Location":"Greenwood Food Bank - Hope Market",
+    "Operational Notes":"Food Bank Hours\nTue: 4:00 pm–6:00 pm\nWed: 11:00 pm–1:00 pm",
+    "Who They Serve":"General Public",
+    "Address":"9501 Greenwood Ave N, Seattle, WA 98103",
+    "Phone Number":"",
+    "Website":"https://seattletemple.salvationarmy.org/seattle_temple_corps/greenwood-food-bank-1/",
+    "Days/Hours":"Tuesday, Wednesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3547797,47.6835063 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Phinney Ridge Lutheran Church",
+    "Location":"Phinney Ridge Food Bank",
+    "Operational Notes":"",
+    "Who They Serve":"General Public",
+    "Address":"7500 Greenwood Ave N, Seattle, WA 98103",
+    "Phone Number":"(206)-783-2350",
+    "Website":"http://prlc.org/phinney-ridge-lutheran-church-food-bank",
+    "Days/Hours":"Tuesday, Wednesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3085629,47.6088532 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Byrd Barr Place",
+    "Location":"The Market",
+    "Operational Notes":"Food bank is open three days a week for people to select food and non-grocery essentials. The Market hours are: Tuesday 11am-4pm, Wednesday 12-4pm, and Thursday 10am-2pm. If you are unable to travel to the location and live in the 98102, 98112, or 98122 zip codes, call 206-812-4940 for home delivery.",
+    "Who They Serve":"General Public",
+    "Address":"722 18th Avenue, Seattle, WA 98122",
+    "Phone Number":"(206)-812-4940",
+    "Website":"http://www.byrdbarrplace.org/programs-services/food-bank/",
+    "Days/Hours":"Tuesday, Wednesday, Thursday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3758291,47.5444292 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"West Seattle Food Bank",
+    "Location":"West Seattle Food Bank",
+    "Operational Notes":"Hours: Tue, Thur & Fri  10am-2pm, Wed 12pm-7pm",
+    "Who They Serve":"General Public",
+    "Address":"3419 SW Morgan Street, Seattle, WA 98126",
+    "Phone Number":"(206)-932-9023",
+    "Website":"http://www.westseattlefoodbank.org/",
+    "Days/Hours":"Tuesday, Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2889468,47.5653236 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Rainier Valley Food Bank",
+    "Location":"Rainier Valley Food Bank",
+    "Operational Notes":"Home Delivery is full but there is an active waitlist: https://docs.google.com/forms/d/e/1FAIpQLSc2Z4-G8Frfb6W6jfcDxIgeqR4YX6zLnnnJj8jEhchU1sFGcA/viewform",
+    "Who They Serve":"General Public",
+    "Address":"4205 Rainier Ave S, Seattle, WA 98118",
+    "Phone Number":"(206)-723-4105",
+    "Website":"http://www.rvfb.org/",
+    "Days/Hours":"Tuesday, Wednesday, Thursday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3346308,47.618348 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Recovery Café",
+    "Location":"South Lake Union",
+    "Operational Notes":"Sit down lunch and dinner is available at Recovery Café South Lake Union:\n\nLunch is served Tuesday through Saturday from 12:30pm to 3pm\nDinner is served Tuesday through Saturday from 5pm to 6pm",
+    "Who They Serve":"Contact Agency for Any Eligibility Requirements",
+    "Address":"2022 Boren Ave, Seattle, WA 98121",
+    "Phone Number":"(206)-374-8731",
+    "Website":"http://www.recoverycafe.org/",
+    "Days/Hours":"Tuesday, Wednesday, Thursday, Friday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3471612,47.5225031 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"Sound Generations",
+    "Location":"First Tongan Senior Association",
+    "Operational Notes":"",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"9001 9th Ave SW, Seattle, WA 98106",
+    "Phone Number":"(206)-727-6248",
+    "Website":"http://www.soundgenerations.org/our-programs/food-security/community-dining/",
+    "Days/Hours":"Wednesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3723726,47.6946156 ]
+    },
+    "properties": {
+    "Food Resource Type":"Meal",
+    "Agency":"United Indians of All Tribes Foundation (UIATF)",
+    "Location":"UIATF Labatyeh Youth Home",
+    "Operational Notes":"Please call ahead if need assistance. \nWednesday - 1  hot meal and 3 frozen meals delivered at one time\nFridays - food bank and grocery shopping assistance.\nServices are for participants of the program but will not turn away someone that needs assistance.",
+    "Who They Serve":"Older Adults 60+ and Eligible Participants",
+    "Address":"9010 13th Ave NW, Seattle, WA 98117",
+    "Phone Number":"(206)-285-4425",
+    "Website":"http://www.unitedindians.org/",
+    "Days/Hours":"Wednesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.262898,47.6805765 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"University District Service League",
+    "Location":"Magnuson Park Community Food Pantry",
+    "Operational Notes":"Hours 11am-2pm, please arrive by 1:45pm",
+    "Who They Serve":"General Public",
+    "Address":"7101  62nd Ave NE, Seattle, WA 98115",
+    "Phone Number":"(206)-523-7060",
+    "Website":"http://www.udistrictfoodbank.org/services/magnuson-park-community-food-pantry/",
+    "Days/Hours":"Wednesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2958409,47.608328 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"YWCA",
+    "Location":"Central Area Food Bank",
+    "Operational Notes":"Hours 1pm-3pm\nFood Bank Coordinator Megan Boyce-Jacobs foodbank@ywcaworks.org",
+    "Who They Serve":"General Public",
+    "Address":"2820 E Cherry Street, Seattle, WA 98122",
+    "Phone Number":"(206)-375-1496",
+    "Website":"http://www.ywcaworks.org/programs/central-area-food-bank",
+    "Days/Hours":"Wednesday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.320193,47.5982137 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank & Meal",
+    "Agency":"Asian Counseling and Referral Service (ACRS)",
+    "Location":"ACRS Food Bank and Meals",
+    "Operational Notes":"For more information, contact: Miquel Saldin (206) 695-7510",
+    "Who They Serve":"General Public",
+    "Address":"800 S Weller St, Seattle, WA 98004",
+    "Phone Number":"(206)-695-7510",
+    "Website":"https://acrs.org/services/aging-services-for-older-adults/acrs-food-bank/",
+    "Days/Hours":"Wednesday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2888973,47.56538233 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Rainier Valley Food Bank",
+    "Location":"Rainier Valley",
+    "Operational Notes":"Food delivery and to-go food bag for persons without access to a kitchen and in need of pre-prepared foods. Must sign up on the waitlist for food delivery: docs.google.com/forms/d/e/1FAIpQLSc2Z4-G8Frfb6W6jfcDxIgeqR4YX6zLnnnJj8jEhchU1sFGcA/viewform",
+    "Who They Serve":"General Public",
+    "Address":"4205 Rainier Ave S\nSeattle, WA 98118",
+    "Phone Number":"(206)-723-4105",
+    "Website":"http://www.rvfb.org/what-we-do/",
+    "Days/Hours":"Wednesday, Saturday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3118419,47.6155896 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"Jewish Family Service",
+    "Location":"Polack Food Bank",
+    "Operational Notes":"In-person shopping. All visitors must complete an intake during the first visit. ID is helpful but not required for the intake process. Visitors can access food bank one time per week. Kosher food is available.",
+    "Who They Serve":"General Public",
+    "Address":"1601 16th Ave, Seattle, WA 98122",
+    "Phone Number":"(206)-461-3240",
+    "Website":"http://www.jfsseattle.org/get-help/polack-food-bank/",
+    "Days/Hours":"Wednesday, Thursday, Friday"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2918447,47.7223248 ]
+    },
+    "properties": {
+    "Food Resource Type":"Food Bank",
+    "Agency":"North Helpline",
+    "Location":"Lake City Food Bank",
+    "Operational Notes":"Walk-up distribution of pre-packed food bags. No-cook option available.",
+    "Who They Serve":"General Public",
+    "Address":"12736 33rd Ave NE, Seattle, WA 98125",
+    "Phone Number":"(206)-367-3477",
+    "Website":"http://www.northhelpline.org/get-help/food-bank/",
+    "Days/Hours":"Wednesday, Thursday, Saturday"
+    }
+  }
+]
+}
