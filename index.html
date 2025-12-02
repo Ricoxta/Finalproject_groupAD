@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seattle Map Layers</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { width: 100%; height: 100vh; }
+        .controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="controls">
+        <label><input type="checkbox" id="homelessResources" checked> Homeless Resources</label><br>
+        <label><input type="checkbox" id="emergencyFood" checked> Emergency Food Locations</label><br>
+        <label><input type="checkbox" id="censusTract" checked> Census Tract</label>
+    </div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoianJhaW4yNiIsImEiOiJjbWlqOHdkdzAxMDE0M2txOHpxMmk2dzh4In0.d41h3gV8quXBG-OTdD5lcA';
+
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-122.335167, 47.608013], // Seattle coordinates
+            zoom: 12
+        });
+
+        map.on('load', () => {
+            // Add Seattle city limits layer
+            map.addSource('seattleCityLimits', {
+                type: 'geojson',
+                data: './assets/seattle_city_limits.geojson'
+            });
+            map.addLayer({
+                id: 'seattleCityLimits',
+                type: 'line',
+                source: 'seattleCityLimits',
+                paint: {
+                    'line-color': '#0000FF',
+                    'line-width': 2
+                }
+            });
+
+            // Add homeless resources layer
+            map.addSource('homelessResources', {
+                type: 'geojson',
+                data: './assets/cleaned_homeless_health.geojson'
+            });
+            map.addLayer({
+                id: 'homelessResources',
+                type: 'circle',
+                source: 'homelessResources',
+                paint: {
+                    'circle-color': '#FF0000',
+                    'circle-radius': 5
+                }
+            });
+
+            // Add emergency food locations layer
+            map.addSource('emergencyFood', {
+                type: 'geojson',
+                data: './assets/EmergencyFoodAndMealSeattleOnly.geojson'
+            });
+            map.addLayer({
+                id: 'emergencyFood',
+                type: 'circle',
+                source: 'emergencyFood',
+                paint: {
+                    'circle-color': '#00FF00',
+                    'circle-radius': 5
+                }
+            });
+
+            // Add census tract layer
+            map.addSource('censusTract', {
+                type: 'geojson',
+                data: './assets/seattle_tracts.geojson'
+            });
+            map.addLayer({
+                id: 'censusTract',
+                type: 'fill',
+                source: 'censusTract',
+                paint: {
+                    'fill-color': '#FFFF00',
+                    'fill-opacity': 0.5
+                }
+            });
+
+            // Layer toggle functionality
+            document.getElementById('homelessResources').addEventListener('change', (e) => {
+                map.setLayoutProperty('homelessResources', 'visibility', e.target.checked ? 'visible' : 'none');
+            });
+
+            document.getElementById('emergencyFood').addEventListener('change', (e) => {
+                map.setLayoutProperty('emergencyFood', 'visibility', e.target.checked ? 'visible' : 'none');
+            });
+
+            document.getElementById('censusTract').addEventListener('change', (e) => {
+                map.setLayoutProperty('censusTract', 'visibility', e.target.checked ? 'visible' : 'none');
+            });
+        });
+    </script>
+</body>
+</html>
