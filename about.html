@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Team - Seattle Map</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .navbar {
+            background: white;
+            padding: 15px 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .navbar h2 {
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 600;
+            padding: 8px 20px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            background: #f0f0f0;
+        }
+
+        .nav-link:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 60px 40px;
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 50px;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .team-member {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .team-member h3 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .team-member .role {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .project-info {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 50px;
+            border-left: 5px solid #667eea;
+        }
+
+        .project-info h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .project-info p {
+            color: #555;
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h2>Seattle Health & Resources Map</h2>
+        <div class="nav-links">
+            <a href="intro.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">View Map</a>
+            <a href="about.html" class="nav-link">About Team</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>About the Team</h1>
+        <p class="subtitle">Meet the team behind the Seattle Health & Resources Map</p>
+
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="avatar">S</div>
+                <h3>Stephen</h3>
+                <p class="role">3rd year student at the University of Washington studying Community, Environment, and Planning</p>
+            </div>
+
+            <div class="team-member">
+                <div class="avatar">J</div>
+                <h3>Jack</h3>
+                <p class="role">Team Member</p>
+            </div>
+
+            <div class="team-member">
+                <div class="avatar">R</div>
+                <h3>Reed</h3>
+                <p class="role">Team Member</p>
+            </div>
+
+            <div class="team-member">
+                <div class="avatar">D</div>
+                <h3>David</h3>
+                <p class="role">Team Member</p>
+            </div>
+
+            <div class="team-member">
+                <div class="avatar">R</div>
+                <h3>Ricardo</h3>
+                <p class="role">Team Member</p>
+            </div>
+        </div>
+
+        <div class="project-info">
+            <h2>About This Project</h2>
+            <p>
+                This interactive mapping application was created to visualize the relationship between 
+                community health challenges and available resources in Seattle. By combining data on 
+                homeless health statistics with emergency food service locations, we aim to provide 
+                insights that can help inform community support initiatives and resource allocation.
+            </p>
+            <p style="margin-top: 15px;">
+                Our goal is to make complex geographic and demographic data accessible and understandable, 
+                helping communities better understand and address health and social service needs.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

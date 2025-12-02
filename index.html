@@ -31,6 +31,11 @@
             color: #333;
         }
         
+        .nav-links {
+            display: flex;
+            gap: 10px;
+        }
+        
         .nav-link {
             text-decoration: none;
             color: #667eea;
@@ -89,7 +94,10 @@
 <body>
     <div class="navbar">
         <h3>Seattle Health & Resources Map</h3>
-        <a href="intro.html" class="nav-link">← Back to Introduction</a>
+        <div class="nav-links">
+            <a href="intro.html" class="nav-link">← Introduction</a>
+            <a href="about.html" class="nav-link">About Team</a>
+        </div>
     </div>
     <div id="map"></div>
     <div class="controls">
