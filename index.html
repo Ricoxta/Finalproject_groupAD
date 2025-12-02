@@ -18,6 +18,35 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
+        .legend {
+            position: absolute;
+            bottom: 30px;
+            right: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            max-width: 300px;
+            font-family: Arial, sans-serif;
+        }
+        .legend h4 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
     </style>
 </head>
 <body>
@@ -26,6 +55,41 @@
         <label><input type="checkbox" id="homelessResources" checked> Homeless Resources</label><br>
         <label><input type="checkbox" id="emergencyFood" checked> Emergency Food Locations</label><br>
         <label><input type="checkbox" id="censusTract" checked> Census Tract</label>
+    </div>
+    <div class="legend">
+        <h4>Homeless Resources Categories</h4>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #e74c3c;"></div>
+            <span>Homeless Shelter and Housing Programs</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #3498db;"></div>
+            <span>Encampment and Outreach Area</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #2ecc71;"></div>
+            <span>Community Based Organizations</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #9b59b6;"></div>
+            <span>King County Public Health Center</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #f39c12;"></div>
+            <span>Women, Infants, and Children (WIC) Site</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #1abc9c;"></div>
+            <span>Courts and Criminal Justice Facilities</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #e67e22;"></div>
+            <span>Clinics and Health Care Settings</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #95a5a6;"></div>
+            <span>Other</span>
+        </div>
     </div>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoianJhaW4yNiIsImEiOiJjbWlqOHdkdzAxMDE0M2txOHpxMmk2dzh4In0.d41h3gV8quXBG-OTdD5lcA';
@@ -63,8 +127,22 @@
                 type: 'circle',
                 source: 'homelessResources',
                 paint: {
-                    'circle-color': '#FF0000',
-                    'circle-radius': 5
+                    'circle-color': [
+                        'match',
+                        ['get', 'category'],
+                        'Homeless Shelter and Housing Programs', '#e74c3c',
+                        'Encampment and Outreach Area', '#3498db',
+                        'Community Based Organizations', '#2ecc71',
+                        'King County Public Health Center', '#9b59b6',
+                        'King County Public Health Center (mobile)', '#9b59b6',
+                        'Women, Infants, and Children (WIC) Site', '#f39c12',
+                        'Courts and Criminal Justice Facilities', '#1abc9c',
+                        'Clinics and Health Care Settings', '#e67e22',
+                        '#95a5a6' // default color for other categories
+                    ],
+                    'circle-radius': 6,
+                    'circle-stroke-width': 1,
+                    'circle-stroke-color': '#ffffff'
                 }
             });
 
@@ -129,9 +207,23 @@
             map.on('click', 'homelessResources', (e) => {
                 const properties = e.features[0].properties;
                 
+                // Color mapping for categories
+                const categoryColors = {
+                    'Homeless Shelter and Housing Programs': '#e74c3c',
+                    'Encampment and Outreach Area': '#3498db',
+                    'Community Based Organizations': '#2ecc71',
+                    'King County Public Health Center': '#9b59b6',
+                    'King County Public Health Center (mobile)': '#9b59b6',
+                    'Women, Infants, and Children (WIC) Site': '#f39c12',
+                    'Courts and Criminal Justice Facilities': '#1abc9c',
+                    'Clinics and Health Care Settings': '#e67e22'
+                };
+                
+                const categoryColor = categoryColors[properties.category] || '#95a5a6';
+                
                 // Build popup content
                 let popupContent = `<div style="font-family: Arial, sans-serif;">`;
-                popupContent += `<h3 style="margin: 0 0 10px 0; color: #FF0000;">${properties.site || 'Homeless Resource'}</h3>`;
+                popupContent += `<h3 style="margin: 0 0 10px 0; color: ${categoryColor};">${properties.site || 'Homeless Resource'}</h3>`;
                 if (properties.address) popupContent += `<p style="margin: 5px 0;"><strong>Address:</strong> ${properties.address}</p>`;
                 if (properties.city) popupContent += `<p style="margin: 5px 0;"><strong>City:</strong> ${properties.city}</p>`;
                 if (properties.category) popupContent += `<p style="margin: 5px 0;"><strong>Category:</strong> ${properties.category}</p>`;
