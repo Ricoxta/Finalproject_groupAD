@@ -194,7 +194,8 @@
     </div>
     <div class="buffer-results" id="bufferResults"></div>
     <div class="legend">
-        <h4>Homeless Resources Categories</h4>
+        <h4>Map Legend</h4>
+        <h5 style="margin: 10px 0 5px 0; font-size: 12px; font-weight: bold;">Homeless Resources Categories</h5>
         <div class="legend-item">
             <div class="legend-color" style="background-color: #FF1744;"></div>
             <span>Homeless Shelter and Housing Programs</span>
@@ -222,6 +223,10 @@
         <div class="legend-item">
             <div class="legend-color" style="background-color: #FFEB3B;"></div>
             <span>Clinics and Health Care Settings</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #00FF00;"></div>
+            <span>Emergency Food Locations</span>
         </div>
         <div class="legend-item">
             <div class="legend-color" style="background-color: #607D8B;"></div>
@@ -404,7 +409,11 @@
                 if (properties.category) popupContent += `<p style="margin: 5px 0;"><strong>Category:</strong> ${properties.category}</p>`;
                 if (properties.services) {
                     const services = JSON.parse(properties.services);
-                    popupContent += `<p style="margin: 5px 0;"><strong>Services:</strong> ${services.join(', ')}</p>`;
+                    // Format camelCase service names to have spaces
+                    const formattedServices = services.map(service => 
+                        service.replace(/([A-Z])/g, ' $1').trim()
+                    );
+                    popupContent += `<p style="margin: 5px 0;"><strong>Services:</strong> ${formattedServices.join(', ')}</p>`;
                 }
                 popupContent += `</div>`;
 
