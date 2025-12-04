@@ -9,13 +9,20 @@
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
     <style>
+         /* styles the body of the content to be formatted correctly in respect to other elements on the page*/
         body { margin: 0; padding: 0; }
+
+        /* sets the size of the map canvas on the page */
         #map {
 
             width: 100%;
             height: 90vh;
         }
         
+        /* 
+        Navbar styling for the banner so that it can be on the top of the page along with the color, shadow style, and how it's
+        meant to be displayed on the map page
+        */
         .navbar {
             top: 0;
             left: 0;
@@ -28,18 +35,25 @@
             justify-content: space-between;
             align-items: center;
         }
-        
+        /* 
+        Size and color of the header text
+        */
         .navbar h3 {
             margin: 0;
             font-size: 18px;
             color: #333;
         }
-        
+        /* 
+        styles the display of the navbar links to be displayed as a flexbox with a set spacing
+        */
         .nav-links {
             display: flex;
             gap: 10px;
         }
         
+        /* 
+        Styles the color and look of the font to be bolder for the individual navbar links
+        */
         .nav-link {
             text-decoration: none;
             color: #667eea;
@@ -50,11 +64,18 @@
             background: #f0f0f0;
         }
         
+        /* 
+        Swaps the text and background color when you hover over a navbar link
+        */
         .nav-link:hover {
             background: #667eea;
             color: white;
         }
         
+
+        /* 
+        styles the container with the checkboxes for the different resource types + census tracts 
+        */
         .controls {
             position: absolute;
             top: 70px;
@@ -64,6 +85,10 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
+
+        /* 
+        Styles the legend container to the bottom right and set the font to Arial 
+        */
         .legend {
             position: absolute;
             bottom: 30px;
