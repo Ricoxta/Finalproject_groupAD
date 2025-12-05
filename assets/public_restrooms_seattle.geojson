@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3321, 47.6062]
+      },
+      "properties": {
+        "name": "Pike Place Market",
+        "address": "1st Ave & Pike St, Seattle, WA 98101",
+        "hours": "9:00 AM - 6:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3355, 47.6205]
+      },
+      "properties": {
+        "name": "Seattle Center",
+        "address": "305 Harrison St, Seattle, WA 98109",
+        "hours": "24 hours",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3384, 47.6097]
+      },
+      "properties": {
+        "name": "Westlake Park",
+        "address": "400 Pine St, Seattle, WA 98101",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3321, 47.6097]
+      },
+      "properties": {
+        "name": "Occidental Square Park",
+        "address": "117 S Washington St, Seattle, WA 98104",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3545, 47.6607]
+      },
+      "properties": {
+        "name": "Green Lake Park",
+        "address": "7201 E Green Lake Dr N, Seattle, WA 98115",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3763, 47.6806]
+      },
+      "properties": {
+        "name": "Woodland Park",
+        "address": "5500 Phinney Ave N, Seattle, WA 98103",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2987, 47.6547]
+      },
+      "properties": {
+        "name": "University of Washington - Red Square",
+        "address": "University of Washington Campus, Seattle, WA 98195",
+        "hours": "24 hours",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3431, 47.6589]
+      },
+      "properties": {
+        "name": "Gas Works Park",
+        "address": "2101 N Northlake Way, Seattle, WA 98103",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3763, 47.5470]
+      },
+      "properties": {
+        "name": "Alki Beach Park",
+        "address": "1702 Alki Ave SW, Seattle, WA 98116",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3862, 47.5615]
+      },
+      "properties": {
+        "name": "Lincoln Park",
+        "address": "8011 Fauntleroy Way SW, Seattle, WA 98136",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3284, 47.6740]
+      },
+      "properties": {
+        "name": "Meridian Playground",
+        "address": "4649 Sunnyside Ave N, Seattle, WA 98103",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3175, 47.6188]
+      },
+      "properties": {
+        "name": "Cal Anderson Park",
+        "address": "1635 11th Ave, Seattle, WA 98122",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2629, 47.6101]
+      },
+      "properties": {
+        "name": "Seward Park",
+        "address": "5900 Lake Washington Blvd S, Seattle, WA 98118",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3013, 47.5444]
+      },
+      "properties": {
+        "name": "Kubota Garden",
+        "address": "9817 55th Ave S, Seattle, WA 98118",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3789, 47.6615]
+      },
+      "properties": {
+        "name": "Ballard Commons Park",
+        "address": "5701 22nd Ave NW, Seattle, WA 98107",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3567, 47.6740]
+      },
+      "properties": {
+        "name": "Fremont Peak Park",
+        "address": "4357 Fremont Ave N, Seattle, WA 98103",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3321, 47.5951]
+      },
+      "properties": {
+        "name": "Pioneer Square",
+        "address": "100 Yesler Way, Seattle, WA 98104",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3401, 47.5704]
+      },
+      "properties": {
+        "name": "Jefferson Park",
+        "address": "3801 Beacon Ave S, Seattle, WA 98108",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2818, 47.5615]
+      },
+      "properties": {
+        "name": "Rainier Beach Urban Farm and Wetlands",
+        "address": "5513 S Cloverdale St, Seattle, WA 98118",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3567, 47.5270]
+      },
+      "properties": {
+        "name": "Roxhill Park",
+        "address": "2850 SW Roxbury St, Seattle, WA 98126",
+        "hours": "6:00 AM - 10:00 PM",
+        "accessible": "Yes",
+        "type": "Public Restroom"
+      }
+    }
+  ]
+}

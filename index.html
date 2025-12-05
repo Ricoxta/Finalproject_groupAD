@@ -211,6 +211,7 @@
         <div class="controls">
             <label><input type="checkbox" id="homelessResources" checked> Homeless Resources</label><br>
             <label><input type="checkbox" id="emergencyFood" checked> Emergency Food Locations</label><br>
+            <label><input type="checkbox" id="publicRestrooms" checked> Public Restrooms</label><br>
             <label><input type="checkbox" id="censusTract" checked> Census Tracts</label>
         </div>
         <div class="buffer-controls">
@@ -259,6 +260,10 @@
                 <span>Emergency Food Locations</span>
             </div>
             <div class="legend-item">
+                <div class="legend-color" style="background-color: #8B4513;"></div>
+                <span>Public Restrooms</span>
+            </div>
+            <div class="legend-item">
                 <div class="legend-color" style="background-color: #607D8B;"></div>
                 <span>Other</span>
             </div>
@@ -294,16 +299,18 @@
 
         map.on('load', async () => {
             // Load all data first
-            const [censusTractData, homelessData, emergencyFoodData, seattleLimitsData] = await Promise.all([
+            const [censusTractData, homelessData, emergencyFoodData, seattleLimitsData, publicRestroomsData] = await Promise.all([
                 fetch('./assets/2020_Census_Tracts_Seattle.geojson').then(r => r.json()),
                 fetch('./assets/cleaned_homeless_health.geojson').then(r => r.json()),
                 fetch('./assets/EmergencyFoodAndMealSeattleOnly.geojson').then(r => r.json()),
-                fetch('./assets/seattle_city_limits.geojson').then(r => r.json())
+                fetch('./assets/seattle_city_limits.geojson').then(r => r.json()),
+                fetch('./assets/public_restrooms_seattle.geojson').then(r => r.json())
             ]);
 
             // Filter points to only include those within census tracts
             const filteredHomelessData = filterPointsWithinBoundary(homelessData, censusTractData);
             const filteredEmergencyFoodData = filterPointsWithinBoundary(emergencyFoodData, censusTractData);
+            const filteredPublicRestroomsData = filterPointsWithinBoundary(publicRestroomsData, censusTractData);
 
             // Add Seattle city limits layer
             // map.addSource('seattleCityLimits', {
@@ -389,6 +396,23 @@
                 }
             });
 
+            // Add public restrooms layer (filtered)
+            map.addSource('publicRestrooms', {
+                type: 'geojson',
+                data: filteredPublicRestroomsData
+            });
+            map.addLayer({
+                id: 'publicRestrooms',
+                type: 'circle',
+                source: 'publicRestrooms',
+                paint: {
+                    'circle-color': '#8B4513',
+                    'circle-radius': 6,
+                    'circle-stroke-width': 1,
+                    'circle-stroke-color': '#ffffff'
+                }
+            });
+
 
             // Layer toggle functionality
             document.getElementById('homelessResources').addEventListener('change', (e) => {
@@ -397,6 +421,10 @@
 
             document.getElementById('emergencyFood').addEventListener('change', (e) => {
                 map.setLayoutProperty('emergencyFood', 'visibility', e.target.checked ? 'visible' : 'none');
+            });
+
+            document.getElementById('publicRestrooms').addEventListener('change', (e) => {
+                map.setLayoutProperty('publicRestrooms', 'visibility', e.target.checked ? 'visible' : 'none');
             });
 
             document.getElementById('censusTract').addEventListener('change', (e) => {
@@ -415,6 +443,12 @@
                 map.getCanvas().style.cursor = 'pointer';
             });
             map.on('mouseleave', 'emergencyFood', () => {
+                map.getCanvas().style.cursor = '';
+            });
+            map.on('mouseenter', 'publicRestrooms', () => {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+            map.on('mouseleave', 'publicRestrooms', () => {
                 map.getCanvas().style.cursor = '';
             });
 
@@ -472,6 +506,24 @@
                 if (properties['Phone Number']) popupContent += `<p style="margin: 5px 0;"><strong>Phone:</strong> ${properties['Phone Number']}</p>`;
                 if (properties['Who They Serve']) popupContent += `<p style="margin: 5px 0;"><strong>Serves:</strong> ${properties['Who They Serve']}</p>`;
                 if (properties['Operational Notes']) popupContent += `<p style="margin: 5px 0;"><strong>Notes:</strong> ${properties['Operational Notes']}</p>`;
+                popupContent += `</div>`;
+
+                new mapboxgl.Popup()
+                    .setLngLat(e.lngLat)
+                    .setHTML(popupContent)
+                    .addTo(map);
+            });
+
+            // Add click event for public restrooms
+            map.on('click', 'publicRestrooms', (e) => {
+                const properties = e.features[0].properties;
+                
+                // Build popup content
+                let popupContent = `<div style="font-family: Arial, sans-serif;">`;
+                popupContent += `<h3 style="margin: 0 0 10px 0; color: #8B4513;">🚻 ${properties.name || 'Public Restroom'}</h3>`;
+                if (properties.address) popupContent += `<p style="margin: 5px 0;"><strong>Address:</strong> ${properties.address}</p>`;
+                if (properties.hours) popupContent += `<p style="margin: 5px 0;"><strong>Hours:</strong> ${properties.hours}</p>`;
+                if (properties.accessible) popupContent += `<p style="margin: 5px 0;"><strong>Accessible:</strong> ${properties.accessible}</p>`;
                 popupContent += `</div>`;
 
                 new mapboxgl.Popup()
@@ -548,6 +600,7 @@
                 // Find resources within buffer
                 const homelessWithinBuffer = [];
                 const foodWithinBuffer = [];
+                const restroomsWithinBuffer = [];
 
                 filteredHomelessData.features.forEach(feature => {
                     if (turf.booleanPointInPolygon(feature, buffer)) {
@@ -561,21 +614,27 @@
                     }
                 });
 
+                filteredPublicRestroomsData.features.forEach(feature => {
+                    if (turf.booleanPointInPolygon(feature, buffer)) {
+                        restroomsWithinBuffer.push(feature);
+                    }
+                });
+
                 // Display results
-                displayBufferResults(homelessWithinBuffer, foodWithinBuffer, radius);
+                displayBufferResults(homelessWithinBuffer, foodWithinBuffer, restroomsWithinBuffer, radius);
 
                 // Show clear button
                 document.getElementById('clearBuffer').style.display = 'block';
             }
 
             // Function to display buffer results
-            function displayBufferResults(homelessResources, foodResources, radius) {
+            function displayBufferResults(homelessResources, foodResources, restroomResources, radius) {
                 const resultsDiv = document.getElementById('bufferResults');
                 resultsDiv.style.display = 'block';
 
                 let html = `<h4>Resources within ${radius}m</h4>`;
                 
-                const totalResources = homelessResources.length + foodResources.length;
+                const totalResources = homelessResources.length + foodResources.length + restroomResources.length;
                 html += `<p style="font-size: 12px; margin-bottom: 10px;"><strong>Total: ${totalResources} resources</strong></p>`;
 
                 if (homelessResources.length > 0) {
@@ -599,6 +658,18 @@
                         html += `<strong>${props.Location || props.Agency || 'Unknown'}</strong>`;
                         if (props.Address) html += `📍 ${props.Address}<br>`;
                         if (props['Food Resource Type']) html += `🍽️ ${props['Food Resource Type']}`;
+                        html += `</div>`;
+                    });
+                }
+
+                if (restroomResources.length > 0) {
+                    html += `<h5 style="margin: 10px 0 5px 0; font-size: 13px;">Public Restrooms (${restroomResources.length})</h5>`;
+                    restroomResources.forEach(feature => {
+                        const props = feature.properties;
+                        html += `<div class="result-item" style="border-left-color: #8B4513;">`;
+                        html += `<strong>🚻 ${props.name || 'Unknown'}</strong>`;
+                        if (props.address) html += `📍 ${props.address}<br>`;
+                        if (props.hours) html += `🕐 ${props.hours}`;
                         html += `</div>`;
                     });
                 }
@@ -631,7 +702,7 @@
             map.on('click', (e) => {
                 // Check if click was on a feature (to show popup instead)
                 const features = map.queryRenderedFeatures(e.point, {
-                    layers: ['homelessResources', 'emergencyFood']
+                    layers: ['homelessResources', 'emergencyFood', 'publicRestrooms']
                 });
 
                 // Only create buffer if not clicking on a feature
