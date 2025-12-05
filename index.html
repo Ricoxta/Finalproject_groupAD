@@ -432,18 +432,96 @@
             });
 
 
-            // Layer toggle functionality
-            document.getElementById('homelessResources').addEventListener('change', (e) => {
-                map.setLayoutProperty('homelessResources', 'visibility', e.target.checked ? 'visible' : 'none');
+            // Store enabled categories
+            const enabledCategories = {
+                'Homeless Shelter and Housing Programs': true,
+                'Encampment and Outreach Area': true,
+                'Community Based Organizations': true,
+                'King County Public Health Center': true,
+                'King County Public Health Center (mobile)': true,
+                'Women, Infants, and Children (WIC) Site': true,
+                'Courts and Criminal Justice Facilities': true,
+                'Clinics and Health Care Settings': true,
+                'other': true
+            };
+
+            const enabledLayers = {
+                'food': true,
+                'restrooms': true
+            };
+
+            // Function to update homeless resources layer based on enabled categories
+            function updateHomelessResourcesLayer() {
+                const filter = ['any'];
+                
+                for (const [category, enabled] of Object.entries(enabledCategories)) {
+                    if (enabled) {
+                        filter.push(['==', ['get', 'category'], category]);
+                    }
+                }
+                
+                // If no categories are enabled, hide all
+                if (filter.length === 1) {
+                    map.setLayoutProperty('homelessResources', 'visibility', 'none');
+                } else {
+                    map.setLayoutProperty('homelessResources', 'visibility', 'visible');
+                    map.setFilter('homelessResources', filter);
+                }
+            }
+
+            // Legend toggle functionality
+            document.getElementById('toggle-shelter').addEventListener('change', (e) => {
+                enabledCategories['Homeless Shelter and Housing Programs'] = e.target.checked;
+                updateHomelessResourcesLayer();
             });
 
-            document.getElementById('emergencyFood').addEventListener('change', (e) => {
+            document.getElementById('toggle-encampment').addEventListener('change', (e) => {
+                enabledCategories['Encampment and Outreach Area'] = e.target.checked;
+                updateHomelessResourcesLayer();
+            });
+
+            document.getElementById('toggle-community').addEventListener('change', (e) => {
+                enabledCategories['Community Based Organizations'] = e.target.checked;
+                updateHomelessResourcesLayer();
+            });
+
+            document.getElementById('toggle-health').addEventListener('change', (e) => {
+                enabledCategories['King County Public Health Center'] = e.target.checked;
+                enabledCategories['King County Public Health Center (mobile)'] = e.target.checked;
+                updateHomelessResourcesLayer();
+            });
+
+            document.getElementById('toggle-wic').addEventListener('change', (e) => {
+                enabledCategories['Women, Infants, and Children (WIC) Site'] = e.target.checked;
+                updateHomelessResourcesLayer();
+            });
+
+            document.getElementById('toggle-courts').addEventListener('change', (e) => {
+                enabledCategories['Courts and Criminal Justice Facilities'] = e.target.checked;
+                updateHomelessResourcesLayer();
+            });
+
+            document.getElementById('toggle-clinics').addEventListener('change', (e) => {
+                enabledCategories['Clinics and Health Care Settings'] = e.target.checked;
+                updateHomelessResourcesLayer();
+            });
+
+            document.getElementById('toggle-food').addEventListener('change', (e) => {
+                enabledLayers['food'] = e.target.checked;
                 map.setLayoutProperty('emergencyFood', 'visibility', e.target.checked ? 'visible' : 'none');
             });
 
-            document.getElementById('publicRestrooms').addEventListener('change', (e) => {
+            document.getElementById('toggle-restrooms').addEventListener('change', (e) => {
+                enabledLayers['restrooms'] = e.target.checked;
                 map.setLayoutProperty('publicRestrooms', 'visibility', e.target.checked ? 'visible' : 'none');
             });
+
+            document.getElementById('toggle-other').addEventListener('change', (e) => {
+                enabledCategories['other'] = e.target.checked;
+                updateHomelessResourcesLayer();
+            });
+
+            // Layer toggle functionality
 
             document.getElementById('censusTract').addEventListener('change', (e) => {
                 map.setLayoutProperty('censusTract', 'visibility', e.target.checked ? 'visible' : 'none');
