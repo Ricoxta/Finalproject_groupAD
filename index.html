@@ -100,11 +100,20 @@
             max-width: 320px;
             font-family: Arial, sans-serif;
         }
+
+        /* 
+        Here we style the legend header and its font size and weight
+        */
         .legend h4 {
             margin: 0 0 10px 0;
             font-size: 14px;
             font-weight: bold;
         }
+        /* 
+        This styles each individual legend item with its color circle, spacing, and hover effect.
+        Then we style the checkbox within each legend item for better spacing and cursor pointer.
+        Finally, we style the color circle itself with size and margin.
+        */
         .legend-item {
             display: flex;
             align-items: center;
@@ -129,6 +138,12 @@
             margin-right: 8px;
             flex-shrink: 0;
         }
+
+        /* 
+        The buffer control panel styling including position, background, padding, shadow, and max width.
+        Continuing on to style the header, labels, inputs, and buttons within the buffer control panel.
+        The hover effects for the buttons are also defined here.
+        */
         .buffer-controls {
             position: absolute;
             top: 70px;
@@ -176,6 +191,10 @@
         .buffer-controls button.clear:hover {
             background: #c82333;
         }
+
+        /* 
+        buffer-results panel styling including position, background, padding, shadow, max width/height, and overflow.
+        */
         .buffer-results {
             position: absolute;
             bottom: 30px;
@@ -330,21 +349,6 @@
             const filteredEmergencyFoodData = filterPointsWithinBoundary(emergencyFoodData, censusTractData);
             const filteredPublicRestroomsData = filterPointsWithinBoundary(publicRestroomsData, censusTractData);
 
-            // Add Seattle city limits layer
-            // map.addSource('seattleCityLimits', {
-            //     type: 'geojson',
-            //     data: seattleLimitsData
-            // });
-            // map.addLayer({
-            //     id: 'seattleCityLimits',
-            //     type: 'line',
-            //     source: 'seattleCityLimits',
-            //     paint: {
-            //         'line-color': '#0000FF',
-            //         'line-width': 2
-            //     }
-            // });
-
             // Add census tract layer
             map.addSource('censusTract', {
                 type: 'geojson',
@@ -430,7 +434,6 @@
                     'circle-stroke-color': '#ffffff'
                 }
             });
-
 
             // Store enabled categories
             const enabledCategories = {
@@ -522,7 +525,6 @@
             });
 
             // Layer toggle functionality
-
             document.getElementById('censusTract').addEventListener('change', (e) => {
                 map.setLayoutProperty('censusTract', 'visibility', e.target.checked ? 'visible' : 'none');
                 map.setLayoutProperty('censusTract-outline', 'visibility', e.target.checked ? 'visible' : 'none');
